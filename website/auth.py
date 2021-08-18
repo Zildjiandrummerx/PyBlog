@@ -59,6 +59,9 @@ def sign_up():
 
     return render_template("signup.html", user = current_user)
 
+# Username: josh@gmail.com
+# Pass: 1234567
+
 @auth.route('/logout')
 @login_required
 def logout():
